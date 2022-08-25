@@ -1,17 +1,17 @@
 <template>
-<div class="flex flex--column flex--align-center flex--justify-center">
-    <div class="logos">
-        <img src="../../static/img/laravel.png" width="240" alt="" />
-        <img src="../../static/img/vue.png" width="240" alt="" />
-    </div>
+    <div class="flex flex--column flex--align-center flex--justify-center">
+        <div class="logos">
+            <img src="../../static/img/laravel.png" width="240" alt="" />
+            <img src="../../static/img/vue.png" width="240" alt="" />
+        </div>
 
-    <div class="title">
-        <h1 class="vue">Vue 3</h1>
+        <div class="title">
+            <h1 class="vue">Vue 3</h1>
 
-        <h1 class="plus">+</h1>
-        <h1 class="laravel">Laravel 8</h1>
+            <h1 class="plus">+----</h1>
+            <h1 class="laravel">Laravel 8</h1>
+        </div>
     </div>
-</div>
 </template>
 
 <script>
@@ -64,7 +64,7 @@ body,
     padding: 32px;
 
     .laravel {
-        color: #ff291a
+        color: #ff291a;
     }
 
     .vue {
@@ -72,8 +72,7 @@ body,
     }
 
     .plus {
-        color: #35495e
+        color: #35495e;
     }
-
 }
 </style>
